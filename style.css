@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Menu */
+
+.containermenu {
+    background: #A3A656;
+    display: flex;
+    height: 70px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.containermenu nav {
+    padding-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400; 
+    text-transform: uppercase; 
+}
+
+
+/* Mi cuenta */
+.main-nav {
+    display: flex;
+    justify-content: space-between; /* Alinea el contenido a los extremos */
+    align-items: center;
+    
+}
+
+.language-container {
+    display: flex;
+    align-items: center;
+}
+
+.account-container {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.account-icon {
+    margin-right: 10px;
+}
+
+.account-text {
+    font-size: 13px;
+    font-weight: 400; /* Regular */
+    color: #000000;
+}
+
+.languaje-nav {
+    display: flex;
+    align-items: center;
+}
+
+.language-text {
+    font-size: 13px;
+    font-weight: 400; /* Regular */
+    text-transform: uppercase;
+    color: #000000;
+    margin-right: 10px; /* Espacio entre el texto y la bandera */
+}
+
+.language-flag {
+    height: auto;
+    margin-right: 10px; /* Espacio entre la bandera y la flecha */
+}
+
+/* RESERVAR */
+.card{
+    background: #FFFFFF;
+    border: 1px dotted #FFFFFF;
+    border-radius: 0px 0px 15px 15px ;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+.card .imagenSpa img{
+    width: auto;
+    height: 100%;
+}
+
+
+.Masajes h1 {
+    font-family: 'Inter', sans-serif; /* Utiliza la fuente Inter */
+    font-weight: 600; /* SemiBold */
+    font-size: 32px; /* Tamaño de letra 32px */
+    color: #FFFFFF;
+}
+
+
+.addButton {
+    background: #A3A656;
+    border-radius: 35px;
+    padding: 10px 15px;
+    margin: 0 10px;
+
+}
+
+.addButton a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    gap: 134px; /* Espacio entre las cartas */
+}
+
+.Masajes {
+    background: #A3A656;
+    border: 1px dotted #A3A656;
+    border-radius: 15px 15px 0px 0px ;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 350px;
+}
+
+.price-and-button {
+    display: flex; /* Para alinear el precio y el botón horizontalmente */
+    justify-content: space-between; /* Para colocar el precio y el botón a los extremos del contenedor */
+    align-items: center; /* Para centrar verticalmente el contenido */
+}
+
+
+
+/* RESERVAR - CODIGO */
+.reservaCodigo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: #F2F6F6;
+    color: #000000;
+    height: 100px;
+    margin-bottom: 100px;
+
+    font-family: 'Inter', sans-serif; /* Fuente Inter */
+    font-size: 16px; /* Tamaño de letra 16px */
+    font-weight: 400; /* Regular */
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.reserva,
+.codigo {
+    flex: 1; /* Distribuye el espacio de manera equitativa */
+}
+
+.reserva span,
+.codigo span {
+    font-size: 18px;
+}
+
+/* MAIN */
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Romanesco', sans-serif; /* Usar Romanesco como fuente */
+    font-size: 96px; 
+    font-weight: 400; 
+    color: #000000; 
+}
+
+/* BENEFICIOS */
+.container {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.membership {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.membership-card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    width: 255px; /* Adjusted width for membership card */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+    width: 233px;
+    height: 233px;
+    margin: 0 auto 20px;
+    border: 5px solid #4c553c;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: contain; /* Ensure the image is contained within the circle */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.conditions {
+    background-color: #b0b37c;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.conditions:hover {
+    background-color: #969c6b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* BARRA INFERIOR */
+footer {
+    background-color: #384001;
+    color: #A3A656;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 97px;
+
+}
+
+footer a {
+    color: #A3A656;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+footer .social-icons img {
+    width: 24px;
+    height: 24px;
+}
